@@ -52,6 +52,13 @@ body {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main button:hover {
+    background-color: #006666;
+    color: #ffff00;
 }
 
 .main a {
@@ -72,8 +79,16 @@ body {
     font-size: 16px;
 }
 
+.cont-tier {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-tiers_heading {
-    padding-left: 500px;
+    padding-top: 150px;
+    padding-left: 400px;
 }
 
 .main-tiers_options {
@@ -81,6 +96,15 @@ body {
     justify-content: space-around;
     margin-top: 50px;
     padding: 10px 100px;
+}
+
+.tier-style {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #001f3f;
+    color: #ffd700;
 }
 
 .main-tiers_options p {
@@ -94,4 +118,24 @@ body {
 
 .main-tiers_options li {
     padding: 2px;
+}
+
+/* Gym Images */
+
+.gym-img-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #001f3f;
+    color: #ffd700;
+}
+
+.gym-img img {
+    margin: 25px;
+    height: 450px;
+    border-radius: 10px;
+    border: solid #008080;
 }
