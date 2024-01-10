@@ -139,3 +139,55 @@ body {
     border-radius: 10px;
     border: solid #008080;
 }
+
+/* CTA section */
+
+.cta .container {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 150px;
+    padding: 50px;
+    border: solid 0.5px #001f3f;
+    border-radius: 20px;
+    color: #ffd700;
+    background-color: #001f3f;
+}
+
+.cta button {
+    background-color: #008080;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #006666;
+    color: #ffff00;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001f3f;
+    color: #ffd700;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    color: #ffd700;
+    margin: 0 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
