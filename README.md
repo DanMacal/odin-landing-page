@@ -35,4 +35,3 @@ The footer contains copyright information and social media links, offering users
 
 Feel free to customize the content, styling, and images according to your gym's branding and requirements.
 
-Enjoy exploring Power Gym! 🏋️‍♂️💪🔥
