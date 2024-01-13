@@ -33,5 +33,4 @@ The "Start working out! It's time!" section encourages users to take action by p
 ## Footer
 The footer contains copyright information and social media links, offering users additional ways to connect with Power Gym.
 
-Feel free to customize the content, styling, and images according to your gym's branding and requirements.
 
